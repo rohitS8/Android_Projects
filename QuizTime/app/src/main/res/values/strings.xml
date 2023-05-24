@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Quiz Time</string>
+    <string name="textview">TextView</string>
+    <string name="question">question</string>
+    <string name="ans_1">ans 1</string>
+    <string name="ans_4">ans 4</string>
+    <string name="ans_3">ans 3</string>
+    <string name="ans_2">ans 2</string>
+    <string name="submit">Submit</string>
+</resources>
