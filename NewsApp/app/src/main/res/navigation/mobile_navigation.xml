@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.newsapp.ui.ndtv.HomeFragment"
+        android:label="NDTV"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.newsapp.ui.hinduTimes.GalleryFragment"
+        android:label="Hindustan Times"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.newsapp.ui.indianExpress.SlideshowFragment"
+        android:label="Indian Express"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/theHindu"
+        android:name="com.example.newsapp.Fragments.TheHindu"
+        android:label="The Hindu"
+        tools:layout="@layout/fragment_the_hindu" />
+    <fragment
+        android:id="@+id/timesOfIndia"
+        android:name="com.example.newsapp.Fragments.TimesofIndia"
+        android:label="Times of India"
+        tools:layout="@layout/fragment_timesof_india" />
+    <fragment
+        android:id="@+id/zeeNews"
+        android:name="com.example.newsapp.Fragments.ZeeNews"
+        android:label="Zee News"
+        tools:layout="@layout/fragment_zee_news" />
+</navigation>

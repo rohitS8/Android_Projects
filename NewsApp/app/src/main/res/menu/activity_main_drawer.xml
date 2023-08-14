@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ndtv"
+            android:title="NDTV"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/hindustantimes"
+            android:title="Hindustan Times"
+            android:menuCategory="secondary"/>
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/indianexpress"
+            android:title="Indian Express"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/timesOfIndia"
+            android:icon="@drawable/timesofindia"
+            android:title="Times of India"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/zeeNews"
+            android:icon="@drawable/zeenews"
+            android:title="Zee News"
+            android:menuCategory="secondary"/>
+
+        <item
+            android:id="@+id/theHindu"
+            android:icon="@drawable/thehindu"
+            android:title="The Hindu"
+            android:menuCategory="secondary"/>
+
+    </group>
+
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+
+        <menu>
+            <item
+                android:id="@+id/thePrint"
+                android:icon="@drawable/theprint"
+                android:title="The Print" />
+
+            <item
+                android:id="@+id/scroll"
+                android:icon="@drawable/scroll"
+                android:title="Scroll.in" />
+        </menu>
+
+    </item>
+</menu>
